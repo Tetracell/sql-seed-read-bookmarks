@@ -11,8 +11,8 @@ app.use(express.json());
 
 //Routes
 app.get("/", (req, res) => {
-    res.send("Welcome to Bookmarks App");
+  res.send("Welcome to Bookmarks App");
 });
 
 // Export
-module.export = app;
+module.exports = app;
